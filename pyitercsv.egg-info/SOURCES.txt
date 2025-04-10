@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyitercsv/__init__.py
+pyitercsv/pyitercsv.py
+pyitercsv.egg-info/PKG-INFO
+pyitercsv.egg-info/SOURCES.txt
+pyitercsv.egg-info/dependency_links.txt
+pyitercsv.egg-info/entry_points.txt
+pyitercsv.egg-info/top_level.txt

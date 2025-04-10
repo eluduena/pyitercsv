@@ -1,0 +1,3 @@
+[console_scripts]
+pyitercsv = pyitercsv.pyitercsv:main
+
