@@ -55,7 +55,9 @@ def run_list(command, csv_list, e) :
             
 def main():
     
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description='My first argparse attempt',
+        epilog=""" Example of use | pyitercsv.py -s "echo '#1#' -l file.csv -e" #this prints element of col 1 | or | pyitercsv.py -s "echo '#2#' -l file.csv -e #this prints element of col 2""")
     parser.add_argument('-l', '--filelist', help='filename csv')
     parser.add_argument('-s', '--stringcommand', help='string to execute with #con_number# in the string')
     parser.add_argument('-f', '--filecommand', help='file with string to execute with #col_number# in the strings')
