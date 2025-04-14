@@ -94,7 +94,7 @@ def main():
         if type(args.filecommand) == str:
             
             print("filecommand", args.filecommand)
-            fc = load_file_command(args.filecommand, delimiter)
+            fc = load_file_command(args.filecommand)
             print ("filecommand", fc)
             
             if len(l)>0:
